@@ -13,11 +13,13 @@ public class Vector2D {
     public Vector2D(double x, double y) {
         this.vX = x;
         this.vY = y;
+        count++;
     }
 
     public Vector2D(Vector2D v2d) {
         this.vX = v2d.vX;
         this.vY = v2d.vY;
+        count++;
     }
 
     public void print() {
